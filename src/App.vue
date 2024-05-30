@@ -95,8 +95,7 @@ export default {
   max-width: 800px;
   margin: 0 auto;
   padding: 3rem;
-  font-family: Arial, sans-serif;
-  background-color: #ccc;
+  background-color: #bed7dc;
   border-radius: 7px;
 }
 
@@ -111,19 +110,22 @@ export default {
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  background-color: #f9f9f9;
 }
 
 .form button {
+  width: 100%;
   padding: 10px 15px;
-  background-color: #28a745;
+  background-color: #f1eedc;
   border: none;
-  color: white;
+  color: #000000;
+  font-weight: bold;
   border-radius: 4px;
   cursor: pointer;
 }
 
 .form button:hover {
-  background-color: #218838;
+  background-color: #d3cfb6;
 }
 
 .article-list {
@@ -173,22 +175,22 @@ export default {
 }
 
 .load-button {
+  width: 100%;
   padding: 10px 15px;
-  background-color: #007bff;
+  background-color: #9ac9d8;
   border: none;
-  color: white;
+  color: rgb(3, 3, 3);
   border-radius: 4px;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .load-button:hover {
-  background-color: #0056b3;
+  background-color: #7eb1c2;
 }
 
-.save {
-  width: 100%;
-}
 h2 {
   font-size: 2rem;
+  color: #000;
 }
 </style>
