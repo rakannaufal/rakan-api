@@ -107,7 +107,7 @@ export default {
 .form textarea {
   width: 700px;
   padding: 15px;
-  color:#fff;
+  color:#000;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
